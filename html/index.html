@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>	
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Floriano Tecnologia</title>
+		<link rel="icon" href="assets/icon-black.png" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body onload="render()">
+        <nav class="navbar bg-black fixed-top">	
+			<div class="row logo-bar">
+				<div class="col-6 logo">
+					<img src="assets/logo-white.png" class="img-header">
+				</div>
+				<div class="col-6 text-white-header">
+					<text>
+						<i class="bi bi-telephone-fill">&nbsp;&nbsp;(41) 98417-1650</i>
+						<br>
+						<i class="bi bi-envelope-at-fill">&nbsp;&nbsp;contato@floriano.tech</i>
+					</text>
+				</div>
+			</div>
+        </nav>
+        <header class="masthead">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="text-center text-white">
+                            <h1 class="mb-2">Soluções em Tecnologia <br>Desenvolvimento</h1>
+                            <div align="center">
+								<button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#contactModal">
+									Fale conosco
+								</button>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+		<div class="whatsapp-circle">
+			<div class="rounded-circle">
+				<a href="https://api.whatsapp.com/send?phone=5541984171650" class="internal-link" target="_blank">
+					<i class="bi-whatsapp fs-1-icon"></i>
+				</a>
+			</div>	
+		</div>	
+        <section class="features-icons bg-light text-center">
+			<div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+						<a href="#desenvolvimento" class="internal-link">
+							<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+								<div class="features-icons-icon d-flex"><i class="bi-code-square m-auto text-primary"></i></div>
+								<h3>Desenvolvimento</h3>
+								<p class="lead-center mb-0">Crie sua página com baixo custo e totalmente personalizada</p>
+							</div>
+						</a>
+                    </div>
+                    <div class="col-lg-3">
+						<a href="#manutencao" class="internal-link">
+							<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+								<div class="features-icons-icon d-flex"><i class="bi-tools m-auto text-primary"></i></div>
+								<h3>Manutenção</h3>
+								<p class="lead-center mb-0">Correção de falhas e defeitos, ou atualizações</p>
+							</div>
+						</a>
+                    </div>
+                    <div class="col-lg-3">
+						<a href="#integracao" class="internal-link">
+							<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+								<div class="features-icons-icon d-flex"><i class="bi-gear-wide-connected m-auto text-primary"></i></div>
+								<h3>Integração</h3>
+								<p class="lead-center mb-0">Comunicação com ferramentas externas (API's)</p>
+							</div>
+						</a>
+                    </div>
+                    <div class="col-lg-3">
+						<a href="#banco-de-dados" class="internal-link">
+							<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+								<div class="features-icons-icon d-flex"><i class="bi-database-fill m-auto text-primary"></i></div>
+								<h3>Banco de Dados</h3>
+								<p class="lead-center mb-0">Criação, administração e gerenciamento de bancos de dados</p>
+							</div>
+						</a>
+                    </div>					
+                </div>
+			</div>
+        </section>
+        <section class="showcase">
+            <div class="container-fluid p-0">
+                <div class="row g-0" id="desenvolvimento">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-1.jpg')"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Desenvolvimento</h2>
+                        <p class="lead mb-0">Soluções rápidas, voltadas para empresas ou empreendedores que necessitem de sites, landing pages inteligentes ou sistemas Web para gerenciamento de  processos e aumento da eficiência operacional</p>
+                    </div>
+                </div>
+                <div class="row g-0" id="manutencao">
+                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-2.jpg')"></div>
+                    <div class="col-lg-6 my-auto showcase-text">
+                        <h2>Manutenção</h2>
+                        <p class="lead mb-0">Pequenas intervenções, ou reformulações em sistemas existentes, adaptações e correções de bugs, de modo a garantir a continuidade de sites ou sistemas corporativos</p>
+                    </div>
+                </div>
+                <div class="row g-0" id="integracao">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-3.jpg')"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Integração</h2>
+                        <p class="lead mb-0">Criação de links, redirecionamentos e conexões com sistemas que disponibilizam API, para viabilizar funcionalidades além das disponibilizadas pelos sistemas da empresa</p>
+                    </div>
+                </div>
+                <div class="row g-0" id="banco-de-dados">
+                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-4.jpg')"></div>
+                    <div class="col-lg-6 my-auto showcase-text">
+                        <h2>Banco de Dados</h2>
+                        <p class="lead mb-0">Administração e documentação de bases de dados, correção de defeitos, conexões com aplicações existentes, backup e segurança</p>
+                    </div>
+                </div>				
+            </div>
+        </section>
+        <section class="call-to-action text-white text-center" id="signup">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <h2 class="mb-3">Solicite seu orçamento!</h2>
+                        <div align="center">
+							<button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#contactModal">
+								Fale conosco
+							</button>									
+						</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer bg-dark">
+            <div class="container">
+				<p class="text-muted small mb-lg-0">
+					<text id="copy" class="copy"></text>
+				</p>
+            </div>
+        </footer>	
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-JV32S740LW"></script>		
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+		<script src="js/util.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>		
+    </body>
+	<div class="modal fade" id="contactModal">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">	  
+			   <h5 class="modal-title">
+					<img src="assets/logo-black.png" width="50%">
+			   </h5>
+		  </div>
+		  <div class="modal-body">
+			  <div class="form-group">
+				<label for="customerName" class="col-form-label">Nome</label>
+                <input class="form-control" id="customerName" type="text" placeholder="Seu nome" onkeyup="verifyFields(this)"/>		
+			  </div>		  
+			  <div class="form-group">
+				<label for="emailAddress" class="col-form-label">Email</label>
+                <input class="form-control" id="emailAddress" type="text" placeholder="Seu endereço de email" onkeyup="verifyFields(this)" disabled />		
+			  </div>
+			  <div class="form-group">
+				<label for="phoneNumber" class="col-form-label">Telefone</label>
+                <input class="form-control" 
+					   id="phoneNumber" 
+					   type="text" 
+					   maxlength=15
+					   placeholder="Seu telefone" 
+					   onkeypress="return onlyNumbers(event)" 
+					   onkeydown="phoneMask(this)"/>				
+			  </div>			  
+			  <div class="form-group">
+				<label for="message-text" class="col-form-label">Mensagem:</label>
+				<textarea class="form-control" id="message" onkeyup="verifyFields(this)" disabled></textarea>
+			  </div>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+			<button id="btn-email" 
+					type="button" 
+					class="btn btn-primary" 
+					onclick="sendMessage(customerName.value, emailAddress.value, phoneNumber.value, message.value)" 
+					disabled>
+				<div id="loadEmail" class="load-btn-hide">
+					<span  class="spinner-border spinner-border-sm"></span>
+					<span  class="sr-only">Enviando...</span>
+				</div>
+				<div id="btn-email-text" class="load-btn-show">Enviar mensagem</div>
+			</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="modal modal-center fade" id="noticeModal">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">	  
+			   <h5 class="modal-title">
+					<img src="assets/logo-black.png" width="50%">
+			   </h5>
+		  </div>
+		  <div class="modal-body">
+			<text id="notice"></text>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" onclick="noticeModal('hide')">Fechar</button>
+		  </div>
+		</div>
+	  </div>
+	</div>	
+	<div class="mx-3 my-3 fixed-bottom">
+		<div class="toast bg-dark text-white w-100 mw-100" data-bs-autohide="false">
+			<div class="toast-body p-4 d-flex flex-column">
+				<div class="row">
+					<div class="col-8 p-2">
+						<h4>Nós usamos cookies</h4>
+					</div>
+					<div class="col-4">
+						<div class="ml-auto" align="right">
+							<button type="button" class="btn btn-light" data-bs-dismiss="toast" id="btnAccept">
+								Aceitar
+							</button>
+						</div>
+					</div>				
+				</div>
+				<p class="text-sm-justify mt-2">Eles são usados para aprimorar a sua experiência. Ao fechar este banner ou continuar na página, você concorda com o uso de cookies</p>					
+			</div>
+		</div>
+	</div>
+</html>
