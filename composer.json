@@ -1,0 +1,17 @@
+{
+    "vendor_name": "xxxxxx",
+    "authors": [
+        {
+            "name": "xxxxxx",
+            "email": "xxxxxx"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"6.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LandingPage\\":"vendor\\src"
+        }
+    }
+}
